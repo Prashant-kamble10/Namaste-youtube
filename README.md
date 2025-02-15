@@ -93,7 +93,7 @@ Redux Thunk,  Redux-Saga → Manually handle async logic (dispatch multiple acti
 ✔ Middleware → Required for handling async operations in Redux.
 
 
-Feature	                                         Redux Thunk	                                                              Redux Saga
+Feature	                                         Redux Thunk	                                          ReduxSaga
 How it works	                                  Uses functions (async/await) inside actions	        Uses generator functions (function*)
 Best for	                                      Simple async logic	                               Complex async flows (multiple actions, delays, retries)
 Side Effects	                                  Directly inside actions	                            Managed in separate sagas
