@@ -4,10 +4,10 @@ import Sidebar from "./Sidebar"
 const Body = () =>{
 
     return <>
-    <h2>
+    <div className="grid grid-flow-col h-screen">
         <Sidebar />
         <MainContainer />
-    </h2>
+    </div>
     </>
 }   
 
